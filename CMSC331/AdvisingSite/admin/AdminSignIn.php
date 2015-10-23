@@ -16,11 +16,11 @@ session_start();
 		<h1>UMBC COEIT Engineering and Computer Science Advising</h1>
 		<h2>Admin Sign In</h2>
 
-    <?php
-      if($_SESSION["UserVal"] == true){
-        echo "<h3 style='color:red'>Invalid Username/Password combination</h3>";
-      }
-    ?>
+		<?php
+		  if($_SESSION["UserVal"] == true){
+			echo "<div class=\"statusMessage\">Invalid Username/Password combination</div>";
+		  }
+		?>
         <form action="AdminProcessSignIn.php" method="POST" name="SignIn">
 
 	    <div class="field">

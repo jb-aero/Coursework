@@ -8,6 +8,12 @@
 *.yml text
 *.php text
 *.html text
+*.c text
+*.h text
+*.cpp text
+*.ms text
+*.msa text
+*.js text
 
 *.png binary
 *.jpg binary
